@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+    <Drinking>
+        <BD>
+            <Name>Lala Bear</Name>
+            <Price>$10</Price>
+            <Image_link>image/lala_bear.jpg</Image_link>
+            <Description>Cool bear!</Description>
+        </BD>
+        <BD>
+            <Name>Cola</Name>
+            <Price>$5.5</Price>
+            <Image_link>image/cola.jpg</Image_link>
+            <Description>Cool cola!</Description>
+        </BD>
+        <BD>
+            <Name>Orange</Name>
+            <Price>$4</Price>
+            <Image_link>image/orange.jpeg</Image_link>
+            <Description>Cool orange!</Description>
+        </BD>
+        <BD>
+            <Name>Milk</Name>
+            <Price>$12.3</Price>
+            <Image_link>image/milk.jpg</Image_link>
+            <Description>tasty milk!</Description>
+        </BD>
+        <BD>
+            <Name>Coffee</Name>
+            <Price>$4</Price>
+            <Image_link>image/coffee.jpg</Image_link>
+            <Description>Cool coffee!</Description>
+        </BD>
+        <BD>
+            <Name>Soda Water</Name>
+            <Price>$4.6</Price>
+            <Image_link>image/soda_water.jpg</Image_link>
+            <Description>Cool soda!</Description>
+        </BD>
+    </Drinking>
+    <Snack>
+        <BD>
+            <Name>Potato_piece</Name>
+            <Price>$7</Price>
+            <Image_link>image/potato_piece.jpg</Image_link>
+            <Description>Tasty potato piece!</Description>
+        </BD>
+        <BD>
+            <Name>Cookie</Name>
+            <Price>$40</Price>
+            <Image_link>image/cookie.jpg</Image_link>
+            <Description>Tasty cookie!</Description>
+        </BD>
+        <BD>
+            <Name>Puting</Name>
+            <Price>$12</Price>
+            <Image_link>image/puting.jpg</Image_link>
+            <Description>Tasty puting!</Description>
+        </BD>
+        <BD>
+            <Name>Nut</Name>
+            <Price>$70</Price>
+            <Image_link>image/nut.jpg</Image_link>
+            <Description>Tasty nut!</Description>
+        </BD>
+    </Snack>
+    <Pet>
+        <BD>
+            <Name>Dog</Name>d
+            <Price>$50</Price>
+            <Image_link>image/dog.jpg</Image_link>
+            <Description>Lovely dog!</Description>
+        </BD>
+        <BD>
+            <Name>Cat</Name>
+            <Price>$45</Price>
+            <Image_link>image/cat.jpg</Image_link>
+            <Description>Lovely cat!</Description>
+        </BD>
+        <BD>
+            <Name>Mouse</Name>
+            <Price>$30</Price>
+            <Image_link>image/lala_bear.jpg</Image_link>
+            <Description>Lovely mouse!</Description>
+        </BD>
+        <BD>
+            <Name>Parrot</Name>
+            <Price>$80</Price>
+            <Image_link>image/parrot.jpg</Image_link>
+            <Description>Cute parrot!</Description>
+        </BD>
+    </Pet>
+</Root>
