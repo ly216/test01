@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yuxin's Shop Sign Up </title>
+</head>
+<body>
+<fieldset>
+    <legend>Create a new account</legend>
+    <form id="signUp" method="POST" action="signUp.php" >
+        <label for="new_email">Your E-mail *</label>
+        <div><input id="new_email" type="text" name="new_email" required="true"  pattern="^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$" />
+        </div>
+        <label for="new_uname">Your Name *</label>
+        <div><input id="new_uname" type="text" name="new_uname" required="true"  />
+        </div>
+        <div>Your password must follow the following pattern:
+            <ul>
+                <li>The lenth is 8~16;</li>
+                <li>At least one upper character;</li>
+                <li>At least one lower character;</li>
+                <li>at least one digit number</li>
+            </ul>
+        </div>
+        <label for="new_password">Password *</label>
+        <div><input id="new_password" type="password" name="new_password" required="true"  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[^]{8,16}$" />
+        </div>
+        <label for="sure_password">Comfirm Password *</label>
+        <div><input id="sure_password" type="password" name="sure_password" required="true"  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[^]{8,16}$" />
+        </div>
+        <input type="submit" value="Create"/>
+    </form>
+</fieldset>
+ <a href='Shop_host.php'> Home </a>;
+
+</body>
+</html>
